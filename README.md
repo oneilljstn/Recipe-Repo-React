@@ -36,7 +36,7 @@ Features added:
 
 ## Screenshots
 
-[](Screenshots/Screenshot 2022-06-22 112324.png)
+[](Screenshots/archived.png)
 
 ## Installation and Setup
 
