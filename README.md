@@ -6,6 +6,9 @@ A personal recipe repository built using React.
 Initally built using the React tutorial by Shaun Pelling 
 (NetNinja), I completed the tutortial and continued to 
 improve and expand the design of the app to suit my own needs.
+I love to cook and having converting my physical recipe collection to a digital one is something I have always wanted to do.
+I orginially builts this project from the ground up using Python and Flask 9https://github.com/oneilljstn/Recipe-Repository-Python-Flask) and decided to redevelop it as an opportunity to learn React..
+
 
 Features added:
  - Signup/login functionality using Firebase Authentication
@@ -61,5 +64,5 @@ To visit App:
 
 `localhost:3000/`  
 
-## Reflection
+
 
