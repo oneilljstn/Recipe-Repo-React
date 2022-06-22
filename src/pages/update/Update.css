@@ -1,0 +1,64 @@
+.page-title {
+  margin: 0px !important;
+}
+.page-title.name {
+  font-style: italic;
+}
+
+
+.update {
+    color: #555;
+    max-width: 480px;
+    margin: 60px auto;
+  }
+
+  
+
+  .update label span {
+    display: block;
+    margin: 30px 0 10px;
+  }
+  .update p {
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+  .update button {
+    display: block;
+    width: 100px;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #58249c;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px auto;
+  }
+
+  .ingredients {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ingredient-list:hover {
+    cursor: pointer;
+    text-decoration: line-through;
+  }
+
+  .ingredients button {
+    margin: 0 0 0 10px;
+  }
+
+    /* dark mode */
+    .update.dark {
+      color: #e4e4e4;
+    }
+
+    .page-title.dark {
+      color: #e4e4e48e;
+    }
+  
+    .update.dark li {
+      color: #e4e4e48e;
+    }

@@ -1,0 +1,31 @@
+TODO 
+
+Case desensitize search queries
+
+Redesign theme (CSS) using bootstrap 
+
+Convert semantic ui progress bar to bootstrap progress bar
+
+mobile friendly ui
+
+saving/updating recipe message
+
+convert upload/save to firebase to custom hook
+
+Search button in navbar broken - enter still works
+
+
+
+DONE
+Add hover linethrough to remove ingredietns from list in create component
+Add images to create component
+Add images to recipe componetns
+json -> firebase db conversion
+Add images to recipeList component
+Delete confirmation
+change delete function to archive the recipe in a different collection isntead
+Fix Search to use new firebase DB
+Resolve issue with user not attaching image when updating recipes
+Update recipes
+Add user login
+Add archive/delete button to recipe/cards

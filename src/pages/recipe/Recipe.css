@@ -1,0 +1,60 @@
+/* .recipe {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+   
+  }
+  .recipe ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .recipe li {
+    list-style-type: none;
+    margin-right: 10px;
+    color: #777;
+  }
+  .recipe li::after {
+    content: ",";
+  }
+  .recipe li:last-child::after {
+    content: ".";
+  }
+  .recipe img {
+    width: 100%;
+  }
+  .method {
+    text-align: left;
+    line-height: 1.5em;
+  } */
+
+  /*
+ 
+  .recipe.dark {
+    background: #555;
+    color: #e4e4e4;
+  }
+
+  .recipe.dark li {
+    color: #e4e4e48e;
+  }
+
+  .page-title.dark {
+    color: #e4e4e4a1;
+  }
+  */
+
+  
+.list-group-mine-light .list-group-item  {
+    background-color: transparent;
+    color: black !important;
+  }
+.list-group-mine-dark .list-group-item  {
+    background-color: transparent;
+    color: #e4e4e4 !important;  
+  }
