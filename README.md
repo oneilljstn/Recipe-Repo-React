@@ -36,7 +36,7 @@ Features added:
 
 ## Screenshots
 
-[](../Screenshots/archived.png)
+![](/Screenshots/archived.png)
 
 ## Installation and Setup
 
