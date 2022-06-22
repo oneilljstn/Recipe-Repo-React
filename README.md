@@ -36,7 +36,14 @@ Features added:
 
 ## Screenshots
 
-![](/Screenshots/archived.png)
+![Homepage](/Screenshots/homepage.png)
+![Recipe Arhive](/Screenshots/archived.png)
+![Recipe page](/Screenshots/recipe.png)
+![Search](/Screenshots/search.png)
+![New Recipe](/Screenshots/new_recipe.png)
+![Sign in](/Screenshots/signin.png)
+![Light Theme](/Screenshots/light_theme.png)
+
 
 ## Installation and Setup
 
