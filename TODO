@@ -1,19 +1,29 @@
 TODO 
 
+Readme.md Doc
+
 Case desensitize search queries
-
-Redesign theme (CSS) using bootstrap 
-
-Convert semantic ui progress bar to bootstrap progress bar
 
 mobile friendly ui
 
-saving/updating recipe message
-
 convert upload/save to firebase to custom hook
 
-Search button in navbar broken - enter still works
+Add profile/logout dropdown to navbar 
 
+Add First name to user details
+    Sign up
+    Update Details
+    Welcome Message
+
+Round the upload progress number to nearest int
+
+Update recipe page progress bar not updating with progress
+
+When updating an archived recipe keep it's archived status
+
+When archiving a recipe redirect user back to homepage
+
+Redirect user on successful sign up
 
 
 DONE
@@ -29,3 +39,7 @@ Resolve issue with user not attaching image when updating recipes
 Update recipes
 Add user login
 Add archive/delete button to recipe/cards
+Search button in navbar broken - enter still works
+Redesign theme (CSS) using bootstrap 
+saving/updating recipe message
+Fix recipe Update page button

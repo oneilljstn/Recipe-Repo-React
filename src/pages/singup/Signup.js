@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react'
-import { Card, Form, Button, Alert, Container} from 'react-bootstrap'
+import { Card, Form, Button, Alert, Container, Row} from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css"
 import { useAuth } from '../../context/AuthContext'
 import { Link } from 'react-router-dom'
@@ -35,7 +35,8 @@ async function handleSubmit(e) {
 }
   return (
     
-    <Container className='d-flex align-items-center justify-content min-vh-100' style={{minHeight: "100vh"}}>
+    <Container className='min-vh-100' >
+            <Row className='justify-content-md-center'>
               <div className='w-100' style={{maxWidth: "400px"}}>
               <Card>
             <Card.Body>
@@ -54,6 +55,7 @@ async function handleSubmit(e) {
                         <Form.Label>Password Confirmation</Form.Label>
                         <Form.Control type='password' ref={passwordConfirmRef} required />
                     </Form.Group>
+                    <br />
                     <Button disabled={loading} type='submit' className='w-100'>Submit</Button>
                 </Form>
             </Card.Body>
@@ -62,6 +64,7 @@ async function handleSubmit(e) {
             Already have an account? <Link to="/login">Log In</Link>
         </div>
               </div>
+              </Row>
     </Container>
     
    

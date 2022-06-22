@@ -1,70 +1,57 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Recipe Repo
 
-## Available Scripts
+A personal recipe repository built using React.
 
-In the project directory, you can run:
+Initally built using the React tutorial by Shaun Pelling 
+(NetNinja), I completed the tutortial and continued to 
+improve and expand the design of the app to suit my own needs.
 
-### `npm start`
+Features added:
+ - Signup/login functionality using Firebase Authentication
+ - Added the ability to add images to recipes and store them in Firebase Storage
+ - Altered recipe deltetion to be an archive feature instead
+ - New UI Elements (improved recipe grid, archive confirmation dialogue,)
+ - Add ability to remove ingredients when adding new recipe
+ - Search function now queries Firebase DB (title and ingredients) and amalgamates results   
+ - Overhaul UI to use Bootstrap framework for more responsive UI
+ - Add User Profile page where users can update profile information (email, password)
+ - Add image upload progress bar using semantic UI framework
+ - Added a private routing componenet to ensure only logged in users can access the app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ TODO
+ - Convert Firebase upload/update code to custom hook
+ - Improve mobile UI
+ - Case desensitize search quieries
+ - Add profile/logout dropdown to navbar
+ - Add First name to user details
+    - Sign up
+    - Update Details
+    - Welcome Message
+ - Round the upload progress number to nearest int
+ - Update recipe page progress bar not updating with progress
+ - When updating an archived recipe keep it's archived status
+ - When archiving a recipe redirect user back to homepage
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation and Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone this repository. You will need `node` and `npm` installed globally on your machine.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm install`  
 
-### `npm run eject`
+To Start Server:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`npm start`  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To visit App:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`localhost:3000/`  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Reflection
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

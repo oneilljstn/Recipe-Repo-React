@@ -59,6 +59,7 @@ export default function Recipe() {
             variant="top"
             src={recipe.image}
             alt={recipe.name}
+            style={{ maxHeight: '60rem', objectFit: 'cover' }}
           />
           <Card.Body>
             <Card.Title as='h1'>

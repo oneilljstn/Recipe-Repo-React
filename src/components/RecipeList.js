@@ -30,10 +30,10 @@ export default function RecipeList({ recipes, archived: showArchived }) {
             <Col key={ recipe.id } >
             <div className={`${recipe.id} ${recipe.archived && 'archived'}`}>
              <Card text='white'  bg={mode} style={{ width: '23rem' }} border={recipe.archived ? "danger" : ""}>
-              <Card.Img variant="top" src={recipe.image} alt={recipe.title} />
+              <Card.Img variant="top" src={recipe.image} alt={recipe.title} style={{ maxHeight: '20rem', objectFit: 'cover' }} />
               <Card.Body>
               <Card.Title style={{color:mode === 'dark' ? 'white' : 'black'}}>{recipe.title}</Card.Title>
-              <Card.Subtitle style={{color:mode === 'dark' ? 'white' : 'black'}}> Subtitle</Card.Subtitle>
+              
               <Card.Text style={{color:mode === 'dark' ? 'white' : 'black'}}
                 
               >

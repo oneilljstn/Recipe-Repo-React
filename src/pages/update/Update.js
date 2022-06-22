@@ -189,7 +189,7 @@ export default function Update() {
         <Form.Label>Image</Form.Label>
         <Form.Control type="file" onChange={handleChange} />
         </Form.Group>
-        <Button className="btn">Submit</Button>
+        <Button className="btn" type='submit'>Submit</Button>
         
 
       </Form>
