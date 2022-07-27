@@ -3,7 +3,10 @@ service cloud.firestore {
   match /databases/{database}/documents {
     match /recipes/{document=**} {
       allow read, write: if
-          request.time < timestamp.date(2022, 12, 30);
+           // any logged in user can create new documents
+      allow create: if request.auth != null;
+      // logged in users can read, update and delete their own documents
+      allow read, delete, write: if request.auth.uid == resource.data.userId;
     }
   }
 }
